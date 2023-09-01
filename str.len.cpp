@@ -5,6 +5,11 @@ int main()
 	string str;
 	cout<<"Enter String: ";
 	cin>>str;
-	cout<<"Legth of"<<str<< " is: "<<str.length();
+	int i=0;
+	while(str[i])
+	{
+		i++;
+	}
+	cout<<i;
 	return 0;
 }
